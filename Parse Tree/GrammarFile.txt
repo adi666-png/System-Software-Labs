@@ -1,0 +1,9 @@
+0,S,NP,VP
+1,NP,ART,N
+2,ART,a,an,the
+3,N,cat,rat
+4,VP,V,NP1
+5,V,chased,ate
+6,NP1,ART1,N1
+7,ART1,a,an,the
+8,N1,cat,rat
