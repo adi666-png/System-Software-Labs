@@ -1,17 +1,17 @@
-# Best First Search Algorithm
+# Token Recognizer
 
-The water jug problem for 2 jugs has been solved using Best First Search Algorithm.
+Given below is a typical example of the state diagram of a Non-Finite Automata (NFA):
 
-The search space is expanded using a Best First Search approach as shown below:
+<img align="center" alt="Coding" width="400" height="300" src="https://github.com/adi666-png/System-Software-Labs/blob/main/assets/nfa.jpg">
 
-<img align="center" alt="Coding" width="400" height="300" src="https://github.com/adi666-png/System-Software-Labs/blob/main/assets/BestFirstSearch.gif">
+Above NFA has the following tabular representation:
 
-The heuristic function used here has two parts:
+<img align="center" alt="Coding" width="400" height="300" src="https://github.com/adi666-png/System-Software-Labs/blob/main/assets/nfatable.jpg">
 
-(a) Cost of generation of nodes g(x): Calculated using the distance from the root null node 
+The Deterministic Finite Automata (DFA) obtained from this NFA is shown:
 
-(b) Cost function h(x): Here, the function used was min(|x-target|,|y-target|), where x,y are the capacities of the two buckets and target is the desired final value required
+<img align="center" alt="Coding" width="400" height="300" src="https://github.com/adi666-png/System-Software-Labs/blob/main/assets/dfa.jpg">
 
-The search space is expanded in that direction which minimizes g(x)+h(x) until a suitable solution is found. 
+A sample would look as follows:
 
-A reverse trace to the beginning to performed to find the most optimal path to the solution.
+<img align="center" alt="Coding" width="400" height="300" src="https://github.com/adi666-png/System-Software-Labs/blob/main/assets/tr.jpg">
