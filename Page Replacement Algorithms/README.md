@@ -1,17 +1,21 @@
-# Best First Search Algorithm
+# Page Replacement Algorithms
 
-The water jug problem for 2 jugs has been solved using Best First Search Algorithm.
+Three Page Replacement Algorithms have been implemented:
 
-The search space is expanded using a Best First Search approach as shown below:
+(a) FIFO Page Replacement
 
-<img align="center" alt="Coding" width="400" height="300" src="https://github.com/adi666-png/System-Software-Labs/blob/main/assets/BestFirstSearch.gif">
+The output obtained is shown below:
 
-The heuristic function used here has two parts:
+<img align="center" alt="Coding" width="400" height="300" src="https://github.com/adi666-png/System-Software-Labs/blob/main/assets/fifo.jpg">
 
-(a) Cost of generation of nodes g(x): Calculated using the distance from the root null node 
+(b) Optimal Page Replacement
 
-(b) Cost function h(x): Here, the function used was min(|x-target|,|y-target|), where x,y are the capacities of the two buckets and target is the desired final value required
+The output obtained is shown below:
 
-The search space is expanded in that direction which minimizes g(x)+h(x) until a suitable solution is found. 
+<img align="center" alt="Coding" width="400" height="300" src="https://github.com/adi666-png/System-Software-Labs/blob/main/assets/opt.jpg">
 
-A reverse trace to the beginning to performed to find the most optimal path to the solution.
+(c) Least Recently Used (LRU) Page Replacement
+
+The output obtained is shown below:
+
+<img align="center" alt="Coding" width="400" height="300" src="https://github.com/adi666-png/System-Software-Labs/blob/main/assets/lru.jpg">
